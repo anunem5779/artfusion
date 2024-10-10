@@ -1,0 +1,123 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Global Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header Styles */
+header {
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    color: #1E3A8A;
+}
+
+header nav a {
+    color: #6B7280;
+    transition: color 0.3s;
+}
+
+header nav a:hover {
+    color: #1E3A8A;
+}
+
+/* Banner Section */
+section.relative {
+    position: relative;
+    height: 96vh;
+}
+
+section.relative .text-center h1 {
+    font-size: 4rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+/* Section Styling */
+section h2 {
+    font-size: 2.25rem;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+section p {
+    font-size: 1rem;
+    color: #6B7280;
+}
+
+/* Cards in New Releases Section */
+.grid .bg-white {
+    border-radius: 10px;
+    transition: box-shadow 0.3s ease;
+}
+
+.grid .bg-white:hover {
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.grid .p-6 h3 {
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+
+.grid .bg-gray-50 {
+    background-color: #F9FAFB;
+}
+
+/* Commission Section */
+section.py-16.bg-gray-50 {
+    background-color: #F3F4F6;
+}
+
+/* Newsletter Section */
+section.bg-pink-100 {
+    background: linear-gradient(to right, #FCE4EC, #F8BBD0);
+}
+
+form input[type="email"] {
+    padding: 0.75rem 1rem;
+    border: 1px solid #E5E7EB;
+    outline: none;
+    transition: box-shadow 0.3s;
+}
+
+form input[type="email"]:focus {
+    box-shadow: 0 0 0 3px rgba(236, 72, 153, 0.3);
+}
+
+form button[type="submit"] {
+    background-color: #1E3A8A;
+    color: white;
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 0 0.375rem 0.375rem 0;
+    transition: background-color 0.3s;
+}
+
+form button[type="submit"]:hover {
+    background-color: #3B82F6;
+}
+
+/* Artist Section */
+section.bg-white .w-24.h-24 {
+    background-color: #E5E7EB;
+    border-radius: 9999px;
+}
+
+section.bg-white h3 {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+section.bg-white p {
+    color: #6B7280;
+}

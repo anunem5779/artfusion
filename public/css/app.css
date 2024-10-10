@@ -1,0 +1,126 @@
+/* Add custom styles for the navbar here */
+.navbar {
+    background-color: #0f1b4d !important;
+}
+
+.navbar-brand h2{ 
+    color: white;
+}
+
+#navbarNav{
+    margin-left: 25%;
+}
+
+.nav-link {
+    color: #f1f1f1 !important;
+}
+
+.nav-link:hover {
+    color: #347586 !important;
+}
+
+.btn-primary {
+    background-color: #140e4e !important;
+    border-color: #ffffff !important;
+}
+
+.btn-primary:hover {
+    color: #140e4e;
+    background-color: #f9f9f9 !important;
+    border-color: #140e4e !important;
+}
+
+
+header h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.artworks, .artists {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 50px;
+}
+
+.art-item, .artist-item {
+    text-align: center;
+}
+
+.art-item img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
+footer {
+    background-color: #f8f8f8;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer-container p {
+    margin: 5px;
+}
+
+
+.login-container, .register-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f5f5f5;
+}
+
+.login-box, .register-box {
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+h3 {
+    margin-bottom: 30px;
+    color: #00008B;
+    font-family: Arial, sans-serif;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    text-align: left;
+}
+
+.form-control1 {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.btn1 {
+    width: 100%;
+    padding: 20px;
+    background-color:  rgb(21, 20, 80);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn2 {
+    width: 100%;
+    padding: 20px;
+    color: rgb(21, 20, 80);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn1:hover {
+    background-color: #3333cc;
+}
